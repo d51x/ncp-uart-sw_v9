@@ -36,6 +36,9 @@ cd /usr/ota_staging/elelabs-zigbee-ezsp-utility
 
 python Elelabs_EzspFwUtility.py probe -p /dev/ttyUSB0
 
+![image](https://user-images.githubusercontent.com/10882718/198719216-f3f14694-351c-4679-b59d-e1f0c724fcb8.png)
+
+
 python Elelabs_EzspFwUtility.py restart -m nrml -p /dev/ttyUSB0
 
 ![image](https://user-images.githubusercontent.com/10882718/198719110-ea99b3ac-4a54-45b7-ab11-4450718c6e52.png)
