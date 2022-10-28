@@ -30,7 +30,7 @@ Gecko Bootloader - https://www.wless.ru/files/Silabs/EFR32/ug266-gecko-bootloade
 
 
 
-Скрипты Elelabs
+Скрипты Elelabs (https://github.com/Elelabs/elelabs-zigbee-ezsp-utility), предварительно скачать, например сюда /usr/ota_staging/
 
 cd /usr/ota_staging/elelabs-zigbee-ezsp-utility
 
