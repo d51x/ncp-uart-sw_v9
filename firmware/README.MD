@@ -48,3 +48,13 @@ python Elelabs_EzspFwUtility.py restart -m btl -p /dev/ttyUSB0
 
 ![image](https://user-images.githubusercontent.com/10882718/198719050-d7779da7-d747-490a-b643-41d6002be01e.png)
 
+
+
+-
+Попадаются и такие старые прошивки в перенио со скоростью uart 57600
+![image](https://user-images.githubusercontent.com/10882718/198722160-1716bc21-0345-4f55-96af-8fc2c7b65a99.png)
+![image](https://user-images.githubusercontent.com/10882718/198722250-80862e54-a437-42a3-b313-8b68fe22fe6c.png)
+
+Вариант прошить такое
+
+python Elelabs_EzspFwUtility.py flash -p /dev/ttyUSB0 -b 57600 -f /usr/ota_staging/ncp-uart-sw_v8.ebl
