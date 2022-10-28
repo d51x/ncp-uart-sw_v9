@@ -29,3 +29,13 @@ Ember Standalone Bootloader - https://www.silabs.com/content/usergenerated/asi/c
 Gecko Bootloader - https://www.wless.ru/files/Silabs/EFR32/ug266-gecko-bootloader-user-guide.pdf
 
 
+
+Скрипты Elelabs
+
+cd /usr/ota_staging/elelabs-zigbee-ezsp-utility
+
+python Elelabs_EzspFwUtility.py probe -p /dev/ttyUSB0
+
+python Elelabs_EzspFwUtility.py restart -m nrml -p /dev/ttyUSB0
+
+python Elelabs_EzspFwUtility.py restart -m btl -p /dev/ttyUSB0
