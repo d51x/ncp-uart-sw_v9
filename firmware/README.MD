@@ -10,3 +10,6 @@ RX - PA1
 
 
 Bootloader GPIO Actiovation PD15 low level
+
+
+bootloader_legacy.* is a original bootloader __EFR32 Serial Btl v6.2.1.3 b0__
